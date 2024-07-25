@@ -297,8 +297,8 @@ class RegistrationForm extends Page implements HasForms
 
     protected function sendWhatsAppToPanitia($data)
     {
-        $accountSid = 'AC5bf0ec2e016eac1846e717e8bd6bfdcd';
-        $authToken = '04c55122f2e61b3e3de0c9114864e201';
+        $accountSid = '';
+        $authToken = '';
         $twilioNumber = 'whatsapp:+14155238886';
 
         $panitiaNumber = 'whatsapp:+6282122013099';
